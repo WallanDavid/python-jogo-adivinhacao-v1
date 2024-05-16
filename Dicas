@@ -1,0 +1,4 @@
+Expansão do Jogo
+Níveis de Dificuldade: Adicione diferentes níveis de dificuldade ajustando o intervalo de números.
+Dicas Adicionais: Forneça dicas mais detalhadas, como "muito próximo" quando o palpite estiver dentro de 10 números do valor secreto.
+Pontuação: Implemente um sistema de pontuação que leva em conta a quantidade de tentativas e o nível de dificuldade.
