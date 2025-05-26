@@ -1,19 +1,86 @@
-Conceito do Jogo: Adivinhação de Números
-Resumo
-"Adivinhação de Números" é um jogo simples onde o jogador tenta adivinhar um número secreto gerado aleatoriamente pelo computador. O jogo ensina conceitos básicos de Python, como loops, condicionais, e manipulação de entrada e saída.
+# 🎯 Jogo de Adivinhação em Python
 
-Objetivos do Jogo
-Ensinar conceitos básicos de programação em Python.
-Proporcionar uma experiência de jogo rápida e interativa.
-Incentivar a prática de lógica e resolução de problemas.
-Público-Alvo
-Iniciantes em programação, estudantes de ensino médio ou superior, ou qualquer pessoa interessada em aprender Python de forma divertida e interativa.
+**"Adivinhação de Números"** é um jogo simples e interativo onde o jogador tenta descobrir um número secreto gerado aleatoriamente pelo computador. Ideal para iniciantes em programação, este projeto demonstra conceitos fundamentais de Python como loops, condicionais e entrada/saída de dados.
 
-Estrutura do Jogo
-1. Introdução
-O jogador recebe uma breve introdução explicando que o objetivo é adivinhar um número secreto entre 1 e 100.
-2. Mecânica do Jogo
-Geração de Número Aleatório: O jogo gera um número aleatório entre 1 e 100.
-Tentativas do Jogador: O jogador faz tentativas para adivinhar o número. O jogo dá dicas se o palpite está muito alto ou muito baixo.
-Contagem de Tentativas: O jogo conta o número de tentativas feitas pelo jogador.
-Fim de Jogo: O jogo termina quando o jogador adivinha o número corretamente, e o número de tentativas é exibido.
+---
+
+## 🧠 Objetivos do Jogo
+
+- Ensinar lógica básica de programação com Python
+- Estimular o raciocínio lógico
+- Proporcionar uma experiência de aprendizado divertida
+- Servir como base para expandir e modularizar códigos
+
+---
+
+## 👥 Público-Alvo
+
+- Estudantes de ensino médio ou superior
+- Iniciantes em Python
+- Entusiastas de tecnologia que curtem um desafio lógico
+
+---
+
+## 🕹️ Como Funciona
+
+1. **Introdução**  
+   O jogador é informado que deve adivinhar um número entre 1 e 100.
+
+2. **Geração do Número Secreto**  
+   O programa gera aleatoriamente um número entre 1 e 100.
+
+3. **Tentativas do Jogador**  
+   O jogador insere palpites e recebe dicas:
+   - Se o número é **maior** ou **menor** que o número secreto
+
+4. **Contagem de Tentativas**  
+   O sistema mantém a contagem de quantas tentativas foram feitas.
+
+5. **Fim de Jogo**  
+   Quando o número é adivinhado corretamente, o jogo mostra uma mensagem de sucesso e exibe o número de tentativas usadas.
+
+---
+
+## 🧱 Estrutura de Arquivos
+
+- `interface.py`: lógica principal do jogo
+- `README.md`: este arquivo
+- `LICENSE`: licença MIT
+- `Dicas/`: conteúdo extra ou expansões futuras
+- `Expansão Game/`: ideias ou novas versões do jogo
+
+---
+
+## ▶️ Como Executar o Jogo
+
+1. Clone o repositório:
+   git clone https://github.com/WallanDavid/python-jogo-adivinhacao-v1.git
+
+2. Acesse o diretório:
+   cd python-jogo-adivinhacao-v1
+
+3. Execute o script:
+   python interface.py
+
+---
+
+## 🚀 Possíveis Expansões
+
+- Adicionar modo de dificuldade
+- Limitar o número de tentativas
+- Criar interface gráfica com `tkinter` ou `PySimpleGUI`
+- Registrar ranking de jogadores
+
+---
+
+## 📜 Licença
+
+Este projeto está licenciado sob os termos da [MIT License](LICENSE).
+
+---
+
+## 📫 Contato
+
+**Desenvolvedor:** Wallan David Peixoto  
+**Email:** bobwallan2@gmail.com  
+**LinkedIn:** https://www.linkedin.com/in/wallanpeixoto
